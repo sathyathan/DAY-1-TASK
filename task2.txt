@@ -1,0 +1,32 @@
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT
+OBJECTS:
+  1.Objects are important data types in javascript.
+  2.Objects are different than primitive datatypes.
+  3.Primitive data types contain one value but objects can hold many values in the form of key:value pair.
+  4.These keys can be variables or functions and are called properties and methods.
+   eg:
+      var mycar =new object();
+
+   Creating Objects in Javascript  
+    1. By Object literal
+    2. By creating instance of object directly.
+
+     The syntax of creating object 
+      var objectname=new object();
+       
+       eg: 
+            var emp=new object();
+            emp.id-101;
+            emp.name="xxx";
+            emp.salary=50000
+
+     Accessing javascript objects:
+          objectName.property      
+       eg:
+          accessing 'fname' from exampleb1 using dot operator,
+            person.fname
+
+          accessing 'name'from example 2 using [],
+            eg: emp["name"] 
+
+    That is a object and it is a internal representaion of javascript.i am awaiting your valuable feedback.once again thank you, sir   

@@ -1,0 +1,22 @@
+DIFFERENCE BETWEEN HTTP 1.1 AND HTTP 2
+HTTP 1.1
+   1. HTTP 1.1 keeps all requests and responses in plain text format.
+   2. HTTP 1.1 which must make use of multiple TCP connection.
+   3. programs like gzip have long been used to compress the data sent in HTTP message.
+   4. HTTP relies on the transport layer to avoid buffer overflow.
+   5. Each new TCP connection requires a seperate flow control connection.
+   6.It user requests resource inlining for use getting multiple pages.
+   7.There is head of line blocking that blocks all requests behind it until it does't get its all resources.
+   8.Process requests and responses sequentially'
+
+ HTTP 2
+    1.HTTP uses the binary farming layer to encapsulated all messages in binary format.
+    2.HTTP 2 establishes a single connection object between the two machine.
+    3.The HTTP 2 specific compression program HPACK can then compress the header frame.
+    4.Multiplexes streams with in a single TCP connection.
+    5.We will have to implement flow control in different manner.
+    6.It uses push frame by server that collects all multiple pages.
+    7.It allows multiplexing so one TCP connection is required for multiple requests.
+    8.IT allows for multiplexing enabling multiple streams of a data be exchanged simultaneously over a single connection.
+
+    That is a major difference between HTTP 1.1 and HTTP 2.I am awaiting  your valuable feedback.once again thank you,sir.
